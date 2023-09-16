@@ -1,0 +1,8 @@
+sound: pipewire
+music dir: ~/muz
+
+remember to run mpd before ncmpcpp
+if socket already in use then it's fine, it means mpd is already running, you can run ncmpcpp
+when in ncmpcpp don't panic because you don't see anything, press 2 and you'll see music in your path indicated in config file
+
+for correctly visualizing music paths in ncmpcpp config file visualizer_fifo_path = "~/.config/ncmpcpp/mpd.fifo" must be the same as in the mpd.conf file in audio output, type "fifo", name "visualizer", and path "~/.config/ncmpcpp/mpd.fifo"
