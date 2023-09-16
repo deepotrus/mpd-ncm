@@ -1,0 +1,7 @@
+ncmpcpp_directory = "~/.config/ncmpcpp"
+mpd_host = "localhost"
+mpd_port = "6600"
+
+# Enable visualizer
+visualizer_fifo_path = "~/.config/ncmpcpp/mpd.fifo"
+visualizer_output_name = "visualizer"
